@@ -1,0 +1,72 @@
+div.scroll-type{ 
+    overflow : auto;
+    white-space:nowrap;
+    padding: 10px;
+}
+div.scrollmenu div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+.box{
+    position: relative;
+    width : 20em;
+    height : 30em;
+    margin : 2em;
+    padding : 1em;
+    background-color: #f1f1f1;
+    border : 1px solid #574747;
+    display : inline-block;
+}
+br{
+    margin-bottom: 1px;
+}
+.breast{
+    background-image: url('./breast-cancer.jpg');
+}
+.lungs{
+    background-image: url("./lungs-cancer.jpg");
+}
+.stomach{
+    background-image: url('./stomach-cancer.jpg');
+}
+.colorectal{
+    background-image: url("./colerectal-cancer.jpg");
+}
+.cervical{
+    background-image: url('./cervical-cancer.jpg');
+}
+.liver{
+    background-image: url("./liver-cancer.jpg");
+} 
+
+/* .type-of-cancers{
+    background-color: white;
+    clear : right;
+    color : black;
+}
+.type-of-cancer-text{
+    color: white;
+}
+.type-of-cancer-heading{
+    color:white;
+    font-display:unset;
+    font-size: 2em;
+} 
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+} */
+.accordion-button{
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    color: brown; 
+}
+.accordion-body{
+    text-align: justify; 
+}

@@ -1,8 +1,8 @@
 export default function Footer(){
     return(
         <>
-        <section className = "container text-center" style = {{backgroundColor : 'pink'}}>
-        <p className = "mb-4">
+        <section className = "text-center" style = {{backgroundColor : '#613048', color : 'white', margin :'0px', padding : '.25%'}}>
+        <p className = "mb-2">
             <i className = "footer-icon fab fa-twitter-square mx-2"></i>
             <i className = "footer-icon fab fa-facebook-square mx-2"></i>
             <i className = "footer-icon fab fa-instagram-square mx-2"></i>

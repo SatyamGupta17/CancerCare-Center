@@ -1,46 +1,65 @@
-import './main.css';
+import './main.css'; 
 export default function TypeofCancer(){
+    
     return (
         <section className='container my-5' >
-            <div className = "container"style = {{backgroundColor : 'grey', color : 'white'}}>
-                <h2>Types of Cancer</h2>
-                <p>This list of common cancer types includes cancers that are diagnosed with the greatest frequency in the United States, excluding nonmelanoma skin cancers:</p>
-                <div style = {{ overflow : 'auto', whiteSpace : 'nowrap', padding : '10px'}}>
-                    <div className =  "breast box">
-                        <h3 className =  "type-of-cancer-heading">Breast Cancer</h3>
-                        <p className =  "type-of-cancer-text">Introduction of Breast Cancer</p>
-                        <a href="/breast_cancer.html" target = "blank" >Learn more</a>
+            <div className = "container" >
+                <h1 style = {{backgroundColor : '#613048', color : 'white', textAlign : 'center', padding : '5px', marginBottom: '10px'}}>Types of Cancer</h1>
+                <p><strong>This list of common cancer types includes cancers that are diagnosed with the greatest frequency in the United States</strong></p>
+                <div style = {{ padding : '10px'}}>
+                    <div className='row'>
+                    <div className = "col-lg-6 col-md-6 col-s-12">
+                        <h3>Breast Cancer</h3>
+                        <p  style = {{textAlign : 'justify'}}>Breast cancer is cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, milk rejection, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin..</p> 
                     </div>
-                    <div className =  "lungs box">
-                        <h3 className =  "type-of-cancer-heading">Lungs Cancer</h3>
-                        <p className =  "type-of-cancer-text">Introduction of Lungs Cancer</p>
-                        <a href="/lungs_cancer.html">Learn more</a>
+                    <div  className = "col-lg-6 col-md-6 col-s-12" style = {{textAlign : 'justify'}}>
+                        <h3>Lungs Cancer</h3>
+                        <p>A cancer that begins in the lungs and most often occurs in people who smoke.
+                        Two major types of lung cancer are non-small cell lung cancer and small cell lung cancer.Causes of lung cancer include smoking, second-hand smoke, exposure to certain toxins and family history. </p> 
                     </div>
-                    <div className =  "colorectal box">
-                        <h3 className =  "type-of-cancer-heading">Colorectal Cancer</h3>
-                        <p className =  "type-of-cancer-text">Introduction of Kidney Cancer</p>
-                        <a href="/colorectal.html">Learn more</a>
                     </div>
-                    <div className =  "stomach box">
-                        <h3 className =  "type-of-cancer-heading">Stomach Cancer</h3>
-                        <p className =  "type-of-cancer-text">Introduction of Stomach Cancer</p>
-                        <a href="/stomach_cancer.html">Learn more</a>
+                    <div className='row'  style = {{textAlign : 'justify'}}>
+
+                    <div className = "col-lg-6 col-md-6 col-s-12">
+                        <h3>Brain Tumor</h3>
+                        <p >A cancerous or non-cancerous mass or growth of abnormal cells in the brain.
+                        Tumours can start in the brain, or cancer elsewhere in the body can spread to the brain.
+                        Symptoms include new or increasingly strong headaches, blurred vision, loss of balance, confusion and seizures. In some cases, there may be no symptoms.</p> 
                     </div>
-                    <div className =  "cervical box">
-                        <h3 className =  "type-of-cancer-heading" >Cervical Cancer</h3>
-                        <p className =  "type-of-cancer-text">Introduction of Skin Cancer</p>
-                        <a href="/cervical_cancer.html">Learn more</a>
+                    <div  className = "col-lg-6 col-md-6 col-s-12"  style = {{textAlign : 'justify'}}>
+                        <h3>Colerectal Cancer</h3>
+                        <p>Colorectal cancer, also known as bowel cancer, colon cancer, or rectal cancer, is the development of cancer from the colon or rectum. Signs and symptoms may include blood in the stool, a change in bowel movements, weight loss, and fatigue.</p> 
                     </div>
-                    <div className =  "liver box">
-                        <h3 className =  "type-of-cancer-heading">Liver Tumors</h3>
-                        <p className =  "type-of-cancer-text">Introduction of Brain Tumors</p>
-                        <a href="/liver_cancer.html">Learn more</a>
                     </div>
+                    <div className='row'  style = {{textAlign : 'justify'}}>
+
+                    <div className = "col-lg-6 col-md-6 col-s-12">
+                        <h3>Pancreatic Cancer</h3>
+                        <p >Pancreatic cancer arises when cells in the pancreas, a glandular organ behind the stomach, begin to multiply out of control and form a mass. These cancerous cells have the ability to invade other parts of the body. A number of types of pancreatic cancer are known.</p> 
+                    </div>
+                    <div  className = "col-lg-6 col-md-6 col-s-12">
+                        <h3>Prostate Cancer</h3>
+                        <p>Prostate cancer is the uncontrolled growth of cells in the prostate, a gland in the male reproductive system just below the bladder. Early prostate cancer usually causes no symptoms.</p> 
+                    </div>
+                    </div>
+                    <div className='row' style = {{textAlign : 'justify'}}>
+
+                    <div className = "col-lg-6 col-md-6 col-s-12">
+                        <h3>Head and Neck Cancer</h3>
+                        <p >Head and neck cancer develops from tissues in the lip and oral cavity, larynx, salivary glands, nose, sinuses, or skin of the face. The most common types of head and neck cancer occur in the lips, mouth, and larynx. Symptoms predominantly include a sore that does not heal or a change in the voice.</p> 
+                    </div>
+                    <div  className = "col-lg-6 col-md-6 col-s-12">
+                        <h3>Kidney Cancer</h3>
+                        <p>Kidney cancer, also known as renal cancer, is a group of cancers that starts in the kidney. Symptoms may include blood in the urine, lump in the abdomen, or back pain. Fever, weight loss, and tiredness may also occur. Complications can include spread to the lungs or brain.</p> 
+                    </div>
+                    </div>
+                    
                 </div>
             </div>
             <div className='container my-5'>
+                <h1 style = {{color : 'white', backgroundColor : '#613048', textAlign : 'center'}}>Cancer Case and Deaths</h1>
                 <p>The following table gives the estimated numbers of new cases and deaths for each common cancer type in 2023:</p>
-                <table className="table table-info table-striped table-hover">
+                <table className="table table-striped table-hover">
                     <thead>
                         <tr>
                         <th scope="col">Cancer Type</th>

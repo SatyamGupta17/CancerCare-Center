@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar';
-import Home from './components/Home';
-// import Introduction from './components/Introduction';
+import Home from './components/Home'; 
 import CancerDetectionTool from './components/CancerDetectionTool';
 import TypeofCancer from './components/TypeofCancer';
 import CauseRisk from './components/CauseRisk';
@@ -21,8 +20,7 @@ function App() {
       <Navbar/> 
       <div className = "container my-3">
         <Routes>
-        <Route path="/" element = {<Home/>}/>  
-          {/* <Route path="" element = {<Introduction/>}/>  */}
+        <Route path="/" element = {<Home/>}/>   
           <Route path="/CancerDetectionTool" element ={<CancerDetectionTool/>}/> 
           <Route path="/TypeOfCancer" element = {<TypeofCancer/>}/> 
           <Route path="/CauseRisk" element = {<CauseRisk/>}/> 

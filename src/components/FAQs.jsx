@@ -168,7 +168,7 @@ export default function FAQs(){
                     </button>
                     </h2>
                     <div id="flush-collapseTen" className = "accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div className = "accordion-body"><strong> How can cancer deaths be reduced?</strong>
+                    <div className = "accordion-body"><strong> How can cancer deaths be reduced?</strong><br />
                         Cancer deaths can be reduced by following means:
                         <ul>
                             <li>Cancer is preventable by living a simple life like no tobacco chewing or smoking, vegetarian high roughage low fat diet, no alcohol and use of fresh fruits & fresh vegetables.</li>

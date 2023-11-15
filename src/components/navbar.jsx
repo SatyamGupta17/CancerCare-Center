@@ -24,11 +24,16 @@ export default function Navbar(){
             </li>  
             <li className="nav-item">
               <Link className="nav-link" to="/CauseRisk">Cause and Risk</Link>
-            </li> <li className="nav-item">
+            </li>
+             <li className="nav-item">
               <Link className="nav-link" to="/CommonSymptoms">Common Symptoms</Link>
-            </li> <li className="nav-item">
+            </li>
+             <li className="nav-item">
               <Link className="nav-link" to="/TreatmentOptions">Treatment Options</Link>
             </li> 
+             {/* <li className="nav-item">
+              <Link className="nav-link" to="/EmergencyContact">Emergency Contact</Link>
+            </li>  */}
           </ul>
         </div>
       </div>

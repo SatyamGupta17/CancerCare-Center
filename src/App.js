@@ -7,6 +7,7 @@ import CauseRisk from './components/CauseRisk';
 import CommonSymptoms from './components/CommonSymptoms';
 import TreatmentOption from './components/TreatmentOption';
 import Footer from './components/Footer';
+// import EmergencyContact from './components/emergencyContact';
 import {
   BrowserRouter as Router, 
   Routes,
@@ -26,6 +27,7 @@ function App() {
           <Route path="/CauseRisk" element = {<CauseRisk/>}/> 
           <Route path="/CommonSymptoms" element = {<CommonSymptoms/>}/> 
           <Route path="/TreatmentOptions" element = {<TreatmentOption/>}/> 
+          {/* <Route path="/EmergencyContact" element = {<EmergencyContact/>}/>  */}
           </Routes>  
       </div>
       </Router>  

@@ -8,7 +8,8 @@ export default function Footer(){
             <i className = "footer-icon fab fa-instagram-square mx-2"></i>
             <i className = "footer-icon fas fa-envelope-square mx-2"></i>
             </p> 
-            <p>&copy;2023 Project Cancer Identification- Students of NITJ </p> 
+        <p>&#9743;  Emergency Contact :  1-800-422-6237</p>
+        <p>&copy;2023 Project Cancer Identification- Students of NITJ </p> 
 
         </section>
         </>

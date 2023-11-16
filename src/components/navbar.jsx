@@ -31,6 +31,9 @@ export default function Navbar(){
              <li className="nav-item">
               <Link className="nav-link" to="/TreatmentOptions">Treatment Options</Link>
             </li> 
+             <li className="nav-item">
+              <Link className="nav-link" to="https://cancer-blog.vercel.app/">Blog </Link>
+            </li> 
              {/* <li className="nav-item">
               <Link className="nav-link" to="/EmergencyContact">Emergency Contact</Link>
             </li>  */}
